@@ -1,0 +1,5 @@
+system/cache/*
+system/cache/
+system/cache
+config.php
+admin/config.php
