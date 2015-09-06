@@ -1,0 +1,164 @@
+OPC080179 Update History
+==============================================================================================
+
+
+Updated Date : 01-06-2015
+=============================================================================================================
+Version : Opencart_2.0.3.1
+=============================================================================================================
+
+Catalog Updates Files:-
+
+catalog\view\javascript :-
+
+	1) ...\common.js
+
+	2.)...\jquery\owl-carousel\owl.carousel.css
+
+catalog\view\theme\OPC080179\template :-
+
+	1) ...\product\product.tpl 
+
+catalog\controller :-
+	
+	1)...\product\product.php
+
+
+
+
+Version : OPencart v2.0.2.0
+----------------------------------------------------------------------------------------------
+
+Extra position remove
+
+1)admin/view/template/design/layout_form.tpl(line no 205)
+
+
+
+
+Updated Date : 06-04-2015
+==============================================================================================
+Version : OPencart v2.0.2.0
+==============================================================================================
+
+1)catalog/controller/common/header.php(line no. 20)
+
+2)catalog/controller/product/product.php(replace)
+
+3)catalog/language/english/english.php(add)
+
+4)catalog/view/javascript/common.js(line no. 115)
+
+5)catalog/view/theme/OPC080179/stylesheet/megnor/bootstrap.min.css(line no 5528)
+
+6)catalog/view/theme/OPC080179/template:-
+	
+  1)account/return_form.tpl(replace)
+
+  2)account/address_form.tpl(replace)
+
+  3)account/edit.tpl(replace)
+
+  4)account/register.tpl(replace)
+  
+  5)account/forgotten.tpl(replace)
+
+  6)affiliate/register.tpl(replace)
+
+  7)affiliate/edit.tpl(replace)
+
+  8)affiliate/forgotten.tpl(replace)
+ 
+  9)checkout/register.tpl(replace)
+
+ 10)checkout/shipping.tpl(replace)
+ 
+ 11)information/contact.tpl(line no 143)  
+
+ 12)module/account.tpl(replace)
+
+ 13)module/filter.tpl(replace)
+
+ 14)product/category.tpl(line no 148)
+
+ 15)product/manufacturer_info.tpl(line no 109)
+
+ 16)product/special.tpl(line no 110)
+  
+ 17)product/search.tpl(line no 165)
+
+ 18)product/compare.tpl(replace)
+
+ 19)product/product.tpl(line no 212,222,232,369,448,543 and all js)
+
+
+=============================================================================================================
+OPC080179 Update History
+=============================================================================================================
+
+=============================================================================================================
+Updated Date : 31-03-2015
+=============================================================================================================
+Version : OPencart v2.0.1.1
+=============================================================================================================
+
+Documentation update (html content)
+
+Admin Files:- No chnages.
+
+catalog/controller:-
+
+  1)product/product.php
+
+catalog/language/english:-
+  1)product/product.php
+  2)default.php
+
+
+catalog/view/them/OPC080179/template:- 
+
+
+  1)information/contact.tpl	
+  2)account/return_form.tpl
+  3)checkout/coupon.tpl
+  4)checkout/voucher.tpl
+  5)common/header.tpl
+  6)module/megnortabs.tpl
+  7)module/special.tpl
+  8)module/bestseller.tpl
+  9)module/latest.tpl
+  10)module/featured.tpl
+  13)module/filter.tpl
+  14)product/compare.tpl
+  15)product/category.tpl
+  16)product/manufacturer_info.tpl
+  17)product/product.tpl
+  18)product/search.tpl
+  19)product/special.tpl
+  20)product/review.tpl
+
+catalog/view/javascript/megnor
+	1)custom.js
+	  (add code for radio and checkbox buttons.)
+	
+catalog/view/them/OPC080179/image :-
+ 	 (remove extra image)
+	
+	
+catalog/view/them/OPC080179/stylesheet :-
+	
+  1)stylesheet.css
+  2)megnor/bootstrap.min.css
+  3)megnor/carousel.css
+  4)megnor/custom.css
+  5)megnor/rtl.css
+
+
+
+
+Updated Date : 03-03-2015
+=============================================================================================================
+Version : OPencart v2.0.1.1
+=============================================================================================================
+
+Created totally new theme for support Opencart v2.0.1.1.

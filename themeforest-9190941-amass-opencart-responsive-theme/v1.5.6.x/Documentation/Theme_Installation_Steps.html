@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documentation -  Opencart Theme OPC080179</title>
+<link href="files/css/style.css" rel="stylesheet" type="text/css" />
+<link href="files/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<link href="files/css/font-awesome.css" rel="stylesheet" type="text/css" />
+<link href="files/css/colorbox.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" type="image/x-icon" href="files/images/favicon.png" />
+<script src="files/js/jquery.scrollTo-1.4.2-min.js"></script>
+<script>document.createElement('section');var duration=500,easing='swing';</script>
+<script src="files/js/custom.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="files/js/jquery.colorbox.js"></script>
+<script>
+jQuery(document).ready(function(){
+jQuery(".uploadtheme").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+});
+</script>
+
+</head>
+<body>
+<div class="left">
+  <div class="logo"><img src="files/images/logo.png" alt="logo"/></div>
+  <ul class="menu">
+   <li><a href="#Megnor">Start</a></li>
+	<li class="toclevel-1"> <a href="#installation"><span class="toctext">Step 1 : Installation</span></a></li>
+	<li class="toclevel-1"> <a href="#imagesizesettings"><span class="toctext">Step 2 : Image Size Settings </span></a></li>
+    <li class="toclevel-1"> <a href="#bannersettings"><span class="toctext">Step 3 : Banner Settings </span></a></li>	
+		<ul class="sublinks">
+			<li class="toclevel-1"><a href="#mainbanner"><span class="toctext">3.1 : Main Banner</span></a></li>
+			<li class="toclevel-1"><a href="#subbanner"><span class="toctext">3.2 : Sub Banner</span></a></li>
+			<li class="toclevel-1"><a href="#leftbanner"><span class="toctext">3.3 : Left Banner</span></a></li>
+		</ul>
+	<li class="toclevel-1"> <a href="#templatemelacms"><span class="toctext" >Step 4 : Templatemela CMS</span></a></li>
+	<li class="toclevel-1"> <a href="#producttab"><span class="toctext">Step 5 : Product Tab</span></a></li>
+	<li class="toclevel-1"> <a href="#category"><span class="toctext">Step 6 : Category </span></a></li>
+	<li class="toclevel-1"> <a href="#information"><span class="toctext">Spte 7 : Information </span></a></li>
+	<li class="toclevel-1"> <a href="#bestseller"><span class="toctext">Spte 8 : Bestsellers </span></a></li>
+	<li class="toclevel-1"> <a href="#account"><span class="toctext">Step 9 : Account </span></a></li>
+	<li class="toclevel-1"> <a href="#affiliate"><span class="toctext">Step 10 : Affiliate </span></a></li>
+	<li class="toclevel-1"> <a href="#language"><span class="toctext">Step 11 : Language Settings </span></a></li>
+	<li class="toclevel-1"><a href="#morehelp"><span class="toctext">Step 12 : Need More Help? </span></a></li>
+  </ul>
+</div>
+<div class="right">
+<h3 style="padding-top:40px;" id="Megnor"> </h3>
+<h2 style="color:#11b79c;">Opencart Theme OPC080179</h2>
+<p class="mb10"><strong>Thank You For purchasing Templatemela Opencart Theme.</strong></p>
+<p class="mb10">If you have any questions, please feel free to contact us via our support form <a href=	"https://www.templatemela.com/support/">https://www.templatemela.com/support</a>. Thanks again for your purchase.</p>
+	<div class="link buttons">  	
+		<a href="http://www.templatemela.com" target="_blank"><i class="fa fa-home"></i>Visit US</a>
+		<a href="mailto:support@templatemela.com" ><i class="fa fa-envelope"></i>Mail Us</a>
+	</div>
+  <br/><br/>
+  
+  
+ <!-- Start installation--> 
+	<h2 id="installation" style="padding-top:40px;">Step 1 : Installation</h2>
+	<div class="containers">
+		<ul class="red">
+			<li><span class="red">Please, read the whole section, before attempting to install the theme.<br></span></li>
+			<li><strong class="red"><span class="red">IT IS RECOMMEND TO ALWAYS BACKUP YOUR SYSTEM BEFORE MAKING ANY UPGRADES OR CHANGES! </span> </strong> </li>
+		</ul><br/>
+		<ul>
+			<li>Copy the directories from &ldquo;Opencart Files&rdquo; (provided in  to ZIP file) to your opencart root. Copy those directories at your opencart  root respectively, </li>
+			<li>e.g Your copy path will be </li>
+			<li><strong>&rdquo;Upload/admin&rdquo;</strong> (Overwrite this folder)</li>
+			<li><strong>&rdquo;upload/catalog&rdquo;</strong> (Overwrite this folder)</li>
+			<li><strong>&rdquo;upload/image  &rdquo;</strong> (Overwrite this folder)</li>						
+		</ul><br />
+		<ul>
+			<li>If you want to enable languages then you can download it from this site <a href="http://www.opencart.com">http://www.opencart.com </a>.</li>
+			<li>Download language from given url and paste it to your language directory.</li>
+			<li>Language directory root : <strong>"upload/catalog/language"</strong>.</li>					
+		</ul><br />
+		<ul>
+			<li>Now we have to set our Template from Admin panel</li>
+			<li>Under Admin Panel &gt; System &gt; Settings &gt; <strong>Store</strong> &gt; Template</li>
+			<li>Select &ldquo;OPC080179&rdquo; into <strong>Templates</strong> field.</li>
+			<li>And Click on &ldquo;<strong>Save</strong>&rdquo; button at top right corner.</li>						
+		</ul><br />
+		<ul>
+			<li>
+				<a href="files/images/Admin_Panel.jpg"><img class="img-border" src="files/images/Admin_Panel.jpg"  width="800" /></a>
+			</li>
+		</ul>
+	</div>
+ <!-- End installation-->
+	<div class="clear"></div>		
+	<h2 id="imagesizesettings" style="padding-top:40px;"> Step 2 : Image size settings </h2><br/>
+	<div class="containers">
+		<div class="text">
+			<p>
+				 Go to&nbsp; System &gt; Setting &gt; Edit &gt; <strong>Images</strong>, <br />
+				 Change CategoryImage size to : <strong>817 X 130</strong>,<br />
+				 Change Product Image Thumb size to : <strong>380 X 475</strong>,<br />
+				 Change Product Image Popup size to : <strong>600 X 750</strong>,<br />
+				 Change product list size to : <strong>250 X 310</strong>,<br />
+				 Change additional product image size to : <strong>380 X 475</strong>,<br />
+				 Change related product image size to : <strong>250 X 310</strong>,<br />
+				 Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+				 <br/>
+				<p>
+					<a href="files/images/image_size.jpg">
+						<img class="img-border" src="files/images/image_size.jpg"  width="800" />
+					</a>
+				</p>
+			</p>
+		</div>
+	</div>		
+	<div class="clear"></div>	
+					
+	<h2 id="bannersettings" style="padding-top:40px;"> Step 3 : Banner Settings </h2>
+	<div class="containers">
+		<div class="text">
+			<h3 class="title1" id="mainbanner"> 3.1 : Main Banner </h3> 
+			<br/>
+			<strong>Add banner for slideshow</strong>
+			<p>
+				Now for adding new banners  go to System &gt; Design &gt; <strong>Banners</strong>.<br />
+				(disable HP Products, Manufacturers, Samsung Tab by clicking edit button)<br />
+				Click on &ldquo;<strong>Insert</strong>&rdquo; button to add new banner.<br />
+				Give banner name ,make status enable and click  on &ldquo;<strong>Add Banner</strong>&rdquo; button.<br />
+				Give title of your banner  and click on image to upload your banner.<br />
+				Again click on &ldquo;<strong>Add Banner</strong>&rdquo; button and upload your rest two banners.<br />
+				Now click on  &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+				<br/>
+				<p>
+				<a href="files/images/Main_Banner.jpg">
+					<img class="img-border" src="files/images/Main_Banner.jpg"  width="800" />
+				</a>
+				</p>
+			</p>
+			<p>
+				Uninstall <b>Slideshow </b> module &nbsp;Go to &nbsp;Extensions &gt; Modules &gt; Slideshow &gt; <strong>Uninstall</strong>.<br />
+			</p>	   
+			
+			<p>
+				Now, Install <b>Templatemela Slideshow </b> module &nbsp;Go to &nbsp;Extensions &gt; Modules &gt; Templatemela Slideshow &gt; <strong>install</strong>(After install click on "Edit" link).<br />
+				<br />
+				Now to activate  your banner go to Extensions &gt; Modules &gt; Templatemela Slideshow  click on <strong>Add Module</strong> button.<br />
+				From banner select your  banner,<br />
+				Give Width  &amp; Height <strong>(1920 X 700) </strong>(your banner width and height),<br />
+				From the Layout select <strong>Home Page</strong>,<br />
+				From Position select <strong>Content Top</strong>,<br />
+				From status select <strong>Enable</strong> ,<br />
+				Give short order = <strong>1</strong>.<br />
+				Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+				Same way insert another slideshow.<br/>
+				<br/>
+				<p>
+				<a href="files/images/Slideshow.jpg">
+					<img class="img-border" src="files/images/templatemela_slideshow.jpg"  width="800" />
+				</a>
+				</p>	
+			</p>
+			<div class="clear bottom-space"></div>					
+			<div class="clear"></div>
+			
+	  		<h3 class="title1" id="subbanner"> 3.2 : Sub Banner </h3>
+			<br/>
+			<p>
+				For adding Sub banner go to System &gt; Design &gt; <strong>Banners</strong>.<br />
+				Click on &ldquo;<strong>Insert</strong>&rdquo; button to add new banner.<br />
+				Give banner name and click  on &ldquo;<strong>Add Banner</strong>&rdquo; button.<br />
+				Give title of your banner  and click on image to upload your banner.<br />
+				Now click on  &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+				<br/>
+				<p>
+				<a href="files/images/Carousel_Banner.jpg">
+					<img class="img-border" src="files/images/Sub_banner.jpg"  width="800" />
+				</a>
+				</p>
+			</p>
+			<br/>
+				
+			<h3 class="title1" id="leftbanner"> 3.3 : Left Banner </h3> 
+			<br/>
+			<p>
+				For adding Side banners  go to System &gt; Design &gt; <strong>Banners</strong>.<br />
+				Click on &ldquo;<strong>Insert</strong>&rdquo; button to add new banner.<br />
+				Give banner name and click  on &ldquo;<strong>Add Banner</strong>&rdquo; button.<br />
+				Give title of your banner  and click on image to upload your banner.<br />
+				Now click on  &ldquo;<strong>Save</strong>&rdquo; button.
+				<p>
+				<a href="files/images/Left_banner.jpg">
+					<img class="img-border" src="files/images/Left_banner.jpg"  width="800" />
+				</a>
+				</p>	
+			</p>
+			<br/>
+			<p>
+			   Now to activate  your banners go to Extensions &gt; Modules &gt; Banners&nbsp; click on <strong>Add Module</strong> button.<br />
+			   <br />
+			   For Sub Banner,<br />
+			   From banner select <strong>Subbanner</strong>,<br />
+			   Give Width &amp; Height <strong> (1100 X 132) </strong>(your banner Width and height),<br />
+			   From the Layout select <strong>Home</strong>,<br />
+			   From Position select <strong>Content Top</strong>,<br />
+			   From status select <strong>Enable</strong>,<br />
+			   Give short order = <strong>4</strong>,<br />
+			   <br/>
+			   For Left Banner,<br/>
+			   From banner select <strong>Left-Banner</strong>,<br />
+			   Give Width &amp; Height <strong> (245 X 295) </strong>(your banner Width and height),<br />
+			   From the Layout select <strong>Category</strong>,<br />
+			   From Position select <strong>Column Left</strong>,<br />
+			   From status select <strong>Enable</strong>,<br />
+			   Give short order = <strong>4</strong>,<br />
+			   <br/>
+			   Click on &ldquo;<strong>Save</strong>&rdquo; button.
+			   Same way &ldquo;<strong>Insert</strong>&rdquo; another banners from System &gt; Design &gt; Banners and activate it from&nbsp;&nbsp; Extentions &gt; Modules &gt; Banners.<br/>
+			   <br/>
+				<p>
+				<a href="files/images/Banner_activate.jpg">
+					<img class="img-border" src="files/images/Banner_activate.jpg"  width="800" />
+				</a>
+				</p>
+			</p>
+						
+		</div>
+	</div>
+	<div class="clear"></div>
+		
+	<h2 id="templatemelacms" style="padding-top:40px;"> Step 4 : Templatemela CMS </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p> 
+			Go to Extensions &gt; Modules &gt; <strong>Templatemela CMS</strong> &gt; Install(After install click on "Edit" link),<br />
+			Click on <strong>Add Module</strong> to add  cms block in footer.<br />
+			Now click on Source button in text editor block and paste this code.<br /><br />
+			
+			<div class="borderclass">
+				&lt;div class=&quot;header-callus&quot;&gt;Call : 012-3456-235&lt;/div&gt;
+			</div>
+			<br />	
+			From Position select <strong>Content Header Callus</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-1.jpg">
+					<img class="img-border" src="files/images/CMS-Module-1.jpg"  width="800" />
+				</a>
+			</p>
+		</p>  
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;homepage-subbanner&quot;&gt;<br />
+				&lt;div class=&quot;subbanner-inner&quot;&gt;<br />
+				&lt;div class=&quot;left-side&quot;&gt;<br />
+				&lt;div class=&quot;first-subbanner&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/cmsbanner1.jpg&quot; /&gt; &lt;span class=&quot;mask1&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;span class=&quot;mask2&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;right-side&quot;&gt;<br />
+				&lt;div class=&quot;second-subbanner&quot;&gt;<br />
+				&lt;div class=&quot;subbanner1&quot;&gt;<br />
+				&lt;ul&gt;<br />
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/cmsbanner2.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/cmsbanner3.jpg&quot; /&gt; &lt;span class=&quot;mask1&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;span class=&quot;mask2&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;/a&gt;&lt;/li&gt;<br />
+				&lt;/ul&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;subbanner2&quot;&gt;<br />
+				&lt;ul&gt;<br />
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/cmsbanner4.jpg&quot; /&gt; &lt;span class=&quot;mask1&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;span class=&quot;mask2&quot;&gt;&amp;nbsp;&lt;/span&gt; &lt;/a&gt;&lt;/li&gt;<br />
+					&lt;li&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/cmsbanner5.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+				&lt;/ul&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+			</div>
+			<br />	
+			From Position select <strong>Content Top</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			From Layout select <strong>Home</strong>,<br />
+			From Sort Order <strong>2</strong>.<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-2.jpg">
+					<img class="img-border" src="files/images/CMS-Module-2.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;homepage-from-blog&quot;&gt;<br />
+				&lt;div class=&quot;homepage-from-blog-inner&quot;&gt;<br />
+				&lt;div class=&quot;blog-heading&quot;&gt;<br />
+				&lt;h3&gt;From the Blog&lt;/h3&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;homepage_blog&quot; id=&quot;homeblog&quot;&gt;<br />
+				&lt;div class=&quot;products product-carousel&quot; id=&quot;homeblog-carousel&quot;&gt;<br />
+				&lt;div class=&quot;slider-item&quot;&gt;<br />
+				&lt;div class=&quot;blog_item_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_block&quot;&gt;<br />
+				&lt;div class=&quot;image&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog1.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;image_hover_block&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog1.jpg&quot; /&gt;<br />
+				&lt;div class=&quot;image_hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_hover_action&quot;&gt;&lt;a class=&quot;read_more&quot; href=&quot;#&quot; title=&quot;Click For Read More&quot;&gt;&amp;nbsp;&lt;/a&gt; &lt;a class=&quot;icon zoom&quot; data-lightbox=&quot;example-set&quot; href=&quot;../image/data/blog1.jpg&quot; title=&quot;Click to view Full Image&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;description_box&quot;&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested type specimen book. It has survived not only&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;blog_right&quot;&gt;<br />
+				&lt;div class=&quot;blog_day&quot;&gt;&lt;span class=&quot;blog_date&quot;&gt;07&lt;/span&gt; June&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;title_block&quot;&gt;<br />
+				&lt;div class=&quot;blog_main_title&quot;&gt;Word in classical literature&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;comment_total&quot;&gt;&lt;a href=&quot;#&quot;&gt;Comments 30&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;slider-item&quot;&gt;<br />
+				&lt;div class=&quot;blog_item_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_block&quot;&gt;<br />
+				&lt;div class=&quot;image&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog2.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;image_hover_block&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog2.jpg&quot; /&gt;<br />
+				&lt;div class=&quot;image_hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_hover_action&quot;&gt;&lt;a class=&quot;read_more&quot; href=&quot;#&quot; title=&quot;Click For Read More&quot;&gt;&amp;nbsp;&lt;/a&gt; &lt;a class=&quot;icon zoom&quot; data-lightbox=&quot;example-set&quot; href=&quot;../image/data/blog2.jpg&quot; title=&quot;Click to view Full Image&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;description_box&quot;&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested type specimen book. It has survived not only&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;blog_right&quot;&gt;<br />
+				&lt;div class=&quot;blog_day&quot;&gt;&lt;span class=&quot;blog_date&quot;&gt;10&lt;/span&gt; May&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;title_block&quot;&gt;<br />
+				&lt;div class=&quot;blog_main_title&quot;&gt;Word in classical literature&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;comment_total&quot;&gt;&lt;a href=&quot;#&quot;&gt;Comments 15&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;slider-item&quot;&gt;<br />
+				&lt;div class=&quot;blog_item_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_block&quot;&gt;<br />
+				&lt;div class=&quot;image&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog3.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;image_hover_block&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog3.jpg&quot; /&gt;<br />
+				&lt;div class=&quot;image_hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_hover_action&quot;&gt;&lt;a class=&quot;read_more&quot; href=&quot;#&quot; title=&quot;Click For Read More&quot;&gt;&amp;nbsp;&lt;/a&gt; &lt;a class=&quot;icon zoom&quot; data-lightbox=&quot;example-set&quot; href=&quot;../image/data/blog3.jpg&quot; title=&quot;Click to view Full Image&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;description_box&quot;&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested type specimen book. It has survived not only&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;blog_right&quot;&gt;<br />
+				&lt;div class=&quot;blog_day&quot;&gt;&lt;span class=&quot;blog_date&quot;&gt;20&lt;/span&gt; July&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;title_block&quot;&gt;<br />
+				&lt;div class=&quot;blog_main_title&quot;&gt;Word in classical literature&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;comment_total&quot;&gt;&lt;a href=&quot;#&quot;&gt;Comments 25&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;slider-item&quot;&gt;<br />
+				&lt;div class=&quot;blog_item_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_block&quot;&gt;<br />
+				&lt;div class=&quot;image&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog4.jpg&quot; /&gt;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;image_hover_block&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/blog4.jpg&quot; /&gt;<br />
+				&lt;div class=&quot;image_hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;hover_inner&quot;&gt;<br />
+				&lt;div class=&quot;image_hover_action&quot;&gt;&lt;a class=&quot;read_more&quot; href=&quot;#&quot; title=&quot;Click For Read More&quot;&gt;&amp;nbsp;&lt;/a&gt; &lt;a class=&quot;icon zoom&quot; data-lightbox=&quot;example-set&quot; href=&quot;../image/data/blog4.jpg&quot; title=&quot;Click to view Full Image&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;description_box&quot;&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested type specimen book. It has survived not only&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;blog_right&quot;&gt;<br />
+				&lt;div class=&quot;blog_day&quot;&gt;&lt;span class=&quot;blog_date&quot;&gt;07&lt;/span&gt; June&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;title_block&quot;&gt;<br />
+				&lt;div class=&quot;blog_main_title&quot;&gt;Word in classical literature&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;comment_total&quot;&gt;&lt;a href=&quot;#&quot;&gt;Comments 30&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;customNavigation&quot;&gt;&lt;a class=&quot;btn prev&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;a class=&quot;btn next&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;span class=&quot;homeblog_default_width&quot; style=&quot;display: none; visibility: hidden;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+			</div>
+			<br />	
+			From Position select <strong>Content Top</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			From Layout select <strong>Home</strong>,<br />
+			From Sort Order <strong>5</strong>.<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-3.jpg">
+					<img class="img-border" src="files/images/CMS-Module-3.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;about_us column&quot;&gt;<br />
+				&lt;h3 class=&quot;store_logo&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/footer_logo.png&quot; /&gt;&lt;/a&gt;&lt;/h3&gt;<br />
+				
+				&lt;ul&gt;<br />
+					&lt;li&gt;<br />
+					&lt;div class=&quot;store_detail&quot;&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. type specimen book. It has survived not only&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;social_block&quot;&gt;<br />
+					&lt;div class=&quot;facebook&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;twitter&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;gpluse&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;linkin&quot;&gt;&lt;a href=&quot;#&quot;&gt;&amp;nbsp;&lt;/a&gt;&lt;/div&gt;<br />
+					&lt;/div&gt;<br />
+					&lt;/li&gt;<br />
+				&lt;/ul&gt;<br />
+				&lt;/div&gt;<br />
+			</div>
+			<br />	
+			From Position select <strong>Content Footer</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-4.jpg">
+					<img class="img-border" src="files/images/CMS-Module-4.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;contact_us_bg&quot;&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;
+			</div>
+			<br />	
+			From Position select <strong>Content Footer Contact</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-5.jpg">
+					<img class="img-border" src="files/images/CMS-Module-5.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;block_contact column&quot; id=&quot;contact_us&quot;&gt;<br />
+				&lt;h3&gt;Contact Us&lt;/h3&gt;<br />
+				
+				&lt;ul&gt;<br />
+					&lt;li&gt;<br />
+					&lt;div class=&quot;address&quot;&gt;Megnor Computer Pvt Ltd, 507-Union Trade Centre, Beside Apple Hospital, Udhana Darwaja, Surat&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;phone&quot;&gt;+91 8866888222&lt;/div&gt;<br />
+				
+					&lt;div class=&quot;email&quot;&gt;&lt;a href=&quot;#&quot;&gt;support@templatemela.com&lt;/a&gt;&lt;/div&gt;<br />
+					&lt;/li&gt;<br />
+				&lt;/ul&gt;<br />
+				&lt;/div&gt;<br />
+			</div>
+			<br />	
+			From Position select <strong>Content Footer Contact</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-6.jpg">
+					<img class="img-border" src="files/images/CMS-Module-6.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		<p>
+			Again Click on <strong>Add Module</strong> to add  cms block.<br />
+			Now click on Source button in text editor block and paste this code.<br />
+			<br/>
+			<div class="borderclass">
+				&lt;div class=&quot;product_static_block&quot;&gt;<br />
+				&lt;div class=&quot;product_block_inner&quot;&gt;<br />
+				&lt;div class=&quot;block_row1&quot;&gt;&lt;a href=&quot;#&quot;&gt;Worldwide free shipping&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;block_row2&quot;&gt;&lt;a href=&quot;#&quot;&gt;24/7 Technical support&lt;/a&gt;&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;block_row3&quot;&gt;&lt;a href=&quot;#&quot;&gt;Free Special gift over $99&lt;/a&gt;&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				&lt;/div&gt;<br />
+				
+				&lt;div class=&quot;flexslider&quot;&gt;<br />
+				&lt;ul class=&quot;slides&quot;&gt;<br />
+					&lt;li class=&quot;clone&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/info_banner1.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+					&lt;li class=&quot;clone&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img alt=&quot;&quot; src=&quot;../image/data/info_banner2.jpg&quot; /&gt;&lt;/a&gt;&lt;/li&gt;<br />
+				&lt;/ul&gt;<br />
+				&lt;/div&gt;<br />
+			</div>
+			<br />	
+			From Position select <strong>Content Product</strong>,<br />
+			From status select <strong>Enabled</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+			<br/>
+			<p>
+				<a href="files/images/CMS-Module-7.jpg">
+					<img class="img-border" src="files/images/CMS-Module-7.jpg"  width="800" />
+				</a>
+			</p>
+		</p>
+		<br />
+		</div>
+	</div>
+	<div class="clear"></div>
+			
+	<h2 id="producttab" style="padding-top:40px;"> Step 5 : Product Tab </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p>
+			Go to Extensions &gt; Modules &gt; <strong>Product Tab</strong> &gt; Edit,(Click on Install link if Edit link is not there)<br />
+			Click on <strong>Add Module</strong> button to add Product Tab,<br />
+			Give Limit = <strong>8</strong>, <br />
+			Give Image Width and Height <strong>(250 X 310) </strong>, <br />
+			From Layout select <strong>Home</strong>,<br />
+			From Position select <strong>Content Top</strong>, <br />
+			From Status select <strong>Enable</strong>, <br />
+			Give Short order = <strong>3</strong>, <br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+		</p>
+		<br/>
+		<p>
+			<a href="files/images/Product_Tab.jpg">
+				<img class="img-border" src="files/images/Product_Tab.jpg"  width="800" />
+			</a>
+		</p>
+		</div>
+	</div>
+	<div class="clear"></div>		
+	<h2 id="category" style="padding-top:40px;"> Step 6 : Category </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p> 
+			Go to Extensions &gt; Modules &gt; <strong>Category</strong> &gt; Edit,(Click on Install link if Edit link is not there)<br />
+			Click on <strong>Add Module</strong> to add  category.<br />
+			Add 7 module.<br />
+			From Layout select <strong>Category, Information, Manufacturer, Checkout, Contact, Sitemap, Default</strong> one by one,<br />
+			From Position select <strong>Column Left</strong>,<br />
+			From status select <strong>Enable</strong>,<br />
+			Give short order=<strong>1</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+			<br/>
+		<p>
+			<a href="files/images/Category.jpg">
+				<img class="img-border" src="files/images/Category.jpg"  width="800" />
+			</a>
+			</p>
+		</p>
+		</div>
+	</div>	
+	<div class="clear"></div>		
+	<h2 id="information" style="padding-top:40px;"> Step 7 : Information </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p>
+			Go to Extensions &gt; Modules &gt; <strong>Information</strong> &gt; Edit,(Click on Install link if Edit link is not there)<br />
+			Click on <strong>Add Module</strong> to add  Information.<br />
+			Add 6 module.<br />
+			From Layout select <strong>Contact, Information, Sitemap, Checkout, Manufacturer, Default</strong> one by one,<br />
+			From Position select <strong>Column Left</strong>,<br />
+			From status select <strong>Enable</strong>,<br />
+			Give short order=<strong>2</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+			<br/>
+		<p>
+			<a href="files/images/Information.jpg">
+				<img class="img-border" src="files/images/Information.jpg"  width="800" />
+			</a>
+			</p>
+		</p>
+		</div>
+	</div>	
+	<div class="clear"></div>		
+	<h2 id="bestseller" style="padding-top:40px;"> Step 8 : Bestsellers </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p>
+			Go to Extensions &gt; Modules &gt; <strong>Bestsellers</strong> &gt; Edit,(Click on Install link if Edit link is not there)<br />
+			Click on <strong>Add Module</strong> botton to add bestsellers,<br />
+			Give Limit = <strong>3</strong><br />
+			Give Image size <strong>(64 X 80)</strong>,<br />
+			From Layout select <strong>Category</strong>,<br />
+			From Position select <strong>Column Left</strong>,<br />
+			From status select <strong>Enable</strong>,<br />
+			Give short order=<strong>3</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+			<br/>
+			<p>
+			<a href="files/images/Bestsellers.jpg">
+				<img class="img-border" src="files/images/Bestsellers.jpg"  width="800" />
+			</a>
+			</p>
+		</p>
+		</div>
+	</div>
+	<div class="clear"></div>		
+	<h2 id="account" style="padding-top:40px;"> Step 9 : Account </h2><br/>
+	<div class="containers">
+		<div class="text">
+		<p>
+			Go to Extensions &gt; Modules &gt; <strong>Account</strong> &gt; Edit,(Click on Install link if Edit link is not there)<br />
+			Click on <strong>Add Module</strong> button,<br />
+			From Layout select <strong>Account</strong>,<br />
+			From Position select <strong>Column Left</strong>,<br />
+			From status select <strong>Enable</strong>,<br />
+			Give short order=<strong>1</strong>,<br />
+			Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+			<br/>
+			<p>
+			<a href="files/images/Account.jpg">
+				<img class="img-border" src="files/images/Account.jpg"  width="800" />
+			</a>
+			</p>
+		</p> 
+		</div>
+	</div>
+	<div class="clear"></div>		
+	<h2 id="affiliate" style="padding-top:40px;"> Step 10 : Affiliate </h2><br/>
+	<div class="containers">
+	<div class="text">
+	<p>
+	    Go to Extensions &gt; Modules &gt; <strong>Affiliate</strong> &gt; Edit (Click on Install link if Edit link is not there),<br />
+		From Layout select <strong>Affiliate</strong>,<br />
+		From Position select <strong>Column Left</strong>,<br />
+		From status select <strong>Enable</strong>,<br />
+		Give short order = <strong>1</strong>,<br />
+		Click on &ldquo;<strong>Save</strong>&rdquo; button.<br/>
+		<br/>
+		<p>
+		<a href="files/images/Affiliate.jpg">
+			<img class="img-border" src="files/images/Affiliate.jpg"  width="800" />
+		</a>
+		</p>
+	</p>
+	</div>
+	</div>	
+	<div class="clear"></div>		
+	<h2 id="language" style="padding-top:40px;"> Step 11 : Language Settings </h2><br/>
+	<div class="containers">
+	<div class="text">	
+	We have  provided Laguages with this package.<br />
+	To Enable Laguages login to your admin panel and do follwing settings.<br />
+	<br/>
+	 <p>
+	     Go to&nbsp; System &gt; Localisation &gt; Languages, <br />
+		 Click on &ldquo;<strong>Insert</strong>&rdquo; button to add new Language.<br />
+		<strong> For Example To add dutch Language :</strong> <br />
+		<strong>Language Name :</strong> Chinese,<br />
+		<strong>Code :</strong> cn,<br />
+		<strong>Locale</strong> : zh,zh-hk,zh-cn,zh-cn.UTF-8,cn-gb,chinese,<br />
+		<strong>Image :</strong> cn.png,<br />
+		<strong>Directory :</strong> chinese,<br />
+		<strong>Filename :</strong> chinese,<br />
+		<strong>Status :</strong> Enable,<br />
+		<strong>Sort Order :</strong> as you like.<br />		 
+		Click on &ldquo;<strong>Save</strong>&rdquo; button.<br />
+		<br/>
+	    <p>
+			<a href="files/images/dutch.jpg">
+				<img class="img-border" src="files/images/chinese.jpg"  width="800" />
+			</a>
+		</p>
+		Same way you can do the settings for other Languages. <span class="languages"><a href="files/images/Language.png"> Click here </a></span> to view settings for other language.
+	</p>
+	</div>
+	</div>		
+	<div class="clear"></div>	
+	<h2 id="morehelp" style="padding-top:40px;">Step 12 : Need More Help?</h2>
+	<div class="text">
+		<p> 
+		Once again, thank you so much for purchasing the theme. We are glad to help you if you have any questions relating to this theme.
+		You can contact us and submit technical Supprot Ticket from our support desk <a href="https://www.templatemela.com/support/">https://www.templatemela.com/support/</a>
+		</p>
+	</div>
+	<br/>
+  <!-- End Megnor-->
+  <div class="clear"></div>
+  
+	</div>
+	<br /><br />		
+</div>  
+</div>
+</body>
+</html>
