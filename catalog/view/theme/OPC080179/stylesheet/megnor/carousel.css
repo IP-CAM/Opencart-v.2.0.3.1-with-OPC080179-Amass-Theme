@@ -71,7 +71,7 @@
 }
 
 .customNavigation a.prev {
-    background: none repeat scroll 0 0 #11B79C;
+    background: none repeat scroll 0 0 #d6a92b;
     height: 35px;
     left: auto;
     margin-right: 5px;
@@ -92,7 +92,7 @@
 .product-image  .customNavigation a {top:40px;}
 
 .customNavigation a.prev:hover {
-   background-color: #FF7105;
+   background-color: #f2cb30;
     text-decoration: none;
 }
 .customNavigation a.next:before{
@@ -103,7 +103,7 @@
     padding: 13px;
 }
 .customNavigation a.next {
-	background: none repeat scroll 0 0 #11B79C;
+	background: none repeat scroll 0 0 #d6a92b;
     height: 35px;
     left: 50%;
     top: 0px;
@@ -112,7 +112,7 @@
 }
 .customNavigation a.next:hover 	{  
 	text-decoration:none;
- 	background-color: #FF7105;
+ 	background-color: #f2cb30;
 	}
 
 .banners-slider-carousel .product-carousel{  width:auto; margin:0 15px; }
@@ -163,7 +163,7 @@
 	font-size:26px;
 	color: #9b9b9b;
 }
-.product-info .product-image .customNavigation span.prev:hover 	{  text-decoration:none;  color: #11B79C;}
+.product-info .product-image .customNavigation span.prev:hover 	{  text-decoration:none;  color: #d6a92b;}
 .product-info .product-image .customNavigation span.next {	
 	cursor: pointer;
     height: 20px;
@@ -175,6 +175,6 @@
 	font-size:26px;
 	color: #9b9b9b;
 }
-.product-info .product-image .customNavigation span.next:hover 	{  text-decoration:none; color: #11B79C;}
+.product-info .product-image .customNavigation span.next:hover 	{  text-decoration:none; color: #d6a92b;}
 
 

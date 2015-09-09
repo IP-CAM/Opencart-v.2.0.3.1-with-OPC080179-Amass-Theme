@@ -103,8 +103,8 @@ span.customSelect.changed {
 .treeview-list li a { display:inline;  padding-left:0px; }
 .treeview-list li.active a	{ font-weight:bold; /*color:#D09E00 ;*/  } 
 .treeview-list li.active ul li a	{ font-weight:normal; color:#5E5E5E;}
-.treeview-list li a:hover  {color:#11b79c; } 	
-.treeview-list li ul li a:hover	{ color:#11b79c; } 	
+.treeview-list li a:hover  {color:#d6a92b; } 	
+.treeview-list li ul li a:hover	{ color:#d6a92b; } 	
 .treeview-list li ul li { background:none; border-bottom:none; }
 .treeview-list .collapsable .expandable-hitarea { 
 	background: url(../../image/megnor/sprite.png) no-repeat scroll -30px 0px transparent;
@@ -503,7 +503,7 @@ span.customSelect.changed {
     	text-transform: uppercase; 
 	}
 	.responsive-menu .main-navigation li a:hover {
-    	color: #11b79c;
+    	color: #d6a92b;
 	}
 @media (max-width: 767px) { 
 	.responsive-menu .main-navigation{margin-top: 18px;}

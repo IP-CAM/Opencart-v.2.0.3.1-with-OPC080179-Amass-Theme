@@ -2150,12 +2150,12 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-default {
     color: #fff;
-    background: #11b79c;
+    background: #d6a92b;
 }
 
 .btn-default:hover,.open .dropdown-toggle.btn-default {    
     color: #fff;
-    background: #ff7105;
+    background: #f2cb30;
 }
 
 .btn-default:active,.btn-default.active,.open .dropdown-toggle.btn-default {
@@ -2174,14 +2174,14 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-primary {
     color: #fff;
-    background: #11b79c;
+    background: #d6a92b;
 	text-transform:uppercase;
     height: 30px;
 }
 
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #ff7105;
+    background-color: #f2cb30;
   
 }
 
@@ -2190,7 +2190,7 @@ textarea.input-lg,select[multiple].input-lg {
 }
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active {
-    background: #11b79c;
+    background: #d6a92b;
   
 }
 
@@ -2227,13 +2227,13 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-info {
     color: #fff;
-    background: #11b79c;
+    background: #d6a92b;
     
 }
 
 .btn-info:hover,.btn-info:focus,.btn-info:active,.btn-info.active,.open .dropdown-toggle.btn-info {
     color: #fff;
-    background-color: #ff7105;
+    background-color: #f2cb30;
     
 }
 
@@ -2242,7 +2242,7 @@ textarea.input-lg,select[multiple].input-lg {
 }
 
 .btn-info.disabled,.btn-info[disabled],fieldset[disabled] .btn-info,.btn-info.disabled:hover,.btn-info[disabled]:hover,fieldset[disabled] .btn-info:hover,.btn-info.disabled:focus,.btn-info[disabled]:focus,fieldset[disabled] .btn-info:focus,.btn-info.disabled:active,.btn-info[disabled]:active,fieldset[disabled] .btn-info:active,.btn-info.disabled.active,.btn-info[disabled].active,fieldset[disabled] .btn-info.active {
-    background-color: #11b79c;
+    background-color: #d6a92b;
    
 }
 
@@ -2279,13 +2279,13 @@ textarea.input-lg,select[multiple].input-lg {
 
 .btn-danger {
     color: #FFF;
-    background:#11b79c;
+    background:#d6a92b;
 	font-weight:normal;
 }
 
 .btn-danger:hover,.btn-danger:focus,.btn-danger:active,.btn-danger.active,.open .dropdown-toggle.btn-danger {
     color: #fff;
-    background-color: #ff7105;
+    background-color: #f2cb30;
     
 }
 
@@ -3694,7 +3694,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     display: block;
 }
 .nav>li.active >a:before,.nav>li:hover >a:before{
-	   color: #FF7105;
+	   color: #f2cb30;
     content: "\f0d8";
     font-family: "FontAwesome";
     font-size: 19px;
@@ -3763,7 +3763,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 }
 
 .nav-tabs>li>a:hover {
-    border-bottom: 4px solid #ff7105;
+    border-bottom: 4px solid #f2cb30;
 	color: #4c4a4a;
 	background:url("../../image/megnor/up-arrow-tab.png") no-repeat scroll center bottom transparent;	
 }
@@ -3771,7 +3771,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 .nav-tabs>li.active>a,.nav-tabs>li.active>a:hover,.nav-tabs>li.active>a:focus {
     color: #4c4a4a;
     background:url("../../image/megnor/up-arrow-tab.png") no-repeat scroll center bottom transparent;
-    border-bottom: 4px solid #ff7105;
+    border-bottom: 4px solid #f2cb30;
 	       
 }
 
@@ -4447,7 +4447,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
     display: inline-block;
 }
 .breadcrumb li:last-child a {
-    color: #11b79c;
+    color: #d6a92b;
 }
 .breadcrumb>li+li:before {
     content: "|";
@@ -4494,13 +4494,13 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 
 .pagination>li>a:hover,.pagination>li>span:hover{
     color: #fff;
-    background-color: #11b79c;
+    background-color: #d6a92b;
 }
 
 .pagination>.active>a,.pagination>.active>span,.pagination>.active>a:hover,.pagination>.active>span:hover {
     z-index: 2;
     color: #fff;
-    background-color: #11b79c;
+    background-color: #d6a92b;
     cursor: default;	
 }
 
@@ -4816,7 +4816,7 @@ a.thumbnail:hover,a.thumbnail:focus,a.thumbnail.active {
     background-color: #eeeeee;
     color: #555;
 }
-.alert-success a { color:#11b79c; }
+.alert-success a { color:#d6a92b; }
 
 .alert-success hr {
     border-top-color: #c9e2b3;
