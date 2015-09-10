@@ -8,6 +8,7 @@ $_['time_format']           = 'h:i:s A';
 $_['datetime_format']       = 'd/m/Y H:i:s';
 $_['decimal_point']         = ',';
 $_['thousand_point']        = '.';
+$_['tab-latest']			= 'Novos';
 
 // Text
 $_['text_home']             = '<i class="fa fa-home"></i>';

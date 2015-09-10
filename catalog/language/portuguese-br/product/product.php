@@ -1,5 +1,6 @@
 <?php
 // Text
+$_['text_or']              = '- OU -';
 $_['text_search']              = 'Pesquisar';
 $_['text_brand']               = 'Marca';
 $_['text_manufacturer']        = 'Marca:';

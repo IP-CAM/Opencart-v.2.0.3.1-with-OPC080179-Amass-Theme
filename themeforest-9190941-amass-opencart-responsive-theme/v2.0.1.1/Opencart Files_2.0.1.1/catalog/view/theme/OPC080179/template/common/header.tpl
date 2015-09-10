@@ -81,7 +81,7 @@
    <?php echo $language; ?>
     <?php echo $currency; ?>
 	<div class="header-callus"><a href="<?php echo $contact; ?>"><i class="fa fa-phone"></i>
-	<span class="num"> Call: <?php echo $telephone; ?></span>
+	<span class="num"> Ligue: <?php echo $telephone; ?></span>
 	</a> </div>
 	
 	
